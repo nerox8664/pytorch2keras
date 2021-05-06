@@ -15,13 +15,13 @@ with open('README.md') as f:
 
 
 setup(name='pytorch2keras',
-      version='0.2.4',
+      version='0.2.5',
       description='The deep learning models converter',
       long_description=long_description,
       long_description_content_type='text/markdown',
-      url='https://github.com/nerox8664/pytorch2keras',
+      url='https://github.com/catmanifold/pytorch2keras',
       author='Grigory Malivenko',
-      author_email='nerox8664@gmail.com',
+      author_email='',
       classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
