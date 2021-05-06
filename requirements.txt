@@ -1,4 +1,3 @@
-keras
 tensorflow
 numpy 
 torch
