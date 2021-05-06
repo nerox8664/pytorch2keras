@@ -9,13 +9,13 @@ To install the package, the following ways may be used:
 2. It's possible to install package with PIP right from git:
 
     ```
-    pip install -U git+https://github.com/nerox8664/pytorch2keras 
+    pip install -U git+https://github.com/catmanifold/pytorch2keras 
     ```
 
     Or to clone it manually and then install it with PIP:
 
     ```
-    git clone https://github.com/nerox8664/pytorch2keras 
+    git clone https://github.com/catmanifold/pytorch2keras 
     cd pytorch2keras
     pip install -e .
     ```
