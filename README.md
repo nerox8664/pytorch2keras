@@ -1,14 +1,16 @@
 # pytorch2keras
 
-[![Build Status](https://travis-ci.com/nerox8664/pytorch2keras.svg?branch=master)](https://travis-ci.com/nerox8664/pytorch2keras)
+[![Build Status](https://travis-ci.com/catmanifold/pytorch2keras.svg?branch=master)](https://travis-ci.com/catmanifold/pytorch2keras)
 [![GitHub License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python Version](https://img.shields.io/badge/python-2.7%2C3.6-lightgrey.svg)](https://github.com/nerox8664/pytorch2keras)
+[![Python Version](https://img.shields.io/badge/python-2.7%2C3.6-lightgrey.svg)](https://github.com/catmanifold/pytorch2keras)
 [![Downloads](https://pepy.tech/badge/pytorch2keras)](https://pepy.tech/project/pytorch2keras)
 ![PyPI](https://img.shields.io/pypi/v/pytorch2keras.svg)
 [![Readthedocs](https://img.shields.io/readthedocs/pytorch2keras.svg)](https://pytorch2keras.readthedocs.io/en/latest/)
 
 
 PyTorch to Keras model converter.
+
+[Update in progress].
 
 ## Installation
 
@@ -176,48 +178,6 @@ Options:
 * `verbose` - boolean, detailed log of conversion
 * `name_policy` - (experimental) choice from [`keep`, `short`, `random`]. The selector set the target layer naming policy.
 
-## Supported layers
-
-* Activations:
-    + ReLU
-    + LeakyReLU
-    + SELU
-    + Sigmoid
-    + Softmax
-    + Tanh
-
-* Constants
-
-* Convolutions:
-    + Conv2d
-    + ConvTrsnpose2d
-
-* Element-wise:
-    + Add
-    + Mul
-    + Sub
-    + Div
-
-* Linear
-
-* Normalizations:
-    + BatchNorm2d
-    + InstanceNorm2d
-
-* Poolings:
-    + MaxPool2d
-    + AvgPool2d
-    + Global MaxPool2d (adaptive pooling to shape [1, 1])
-
-
-## Models converted with pytorch2keras
-
-* ResNet*
-* VGG*
-* PreResNet*
-* DenseNet*
-* AlexNet
-* Mobilenet v2
 
 ## Usage
 Look at the `tests` directory.
